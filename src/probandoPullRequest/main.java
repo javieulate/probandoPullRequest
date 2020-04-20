@@ -14,11 +14,11 @@ public class main {
 		char b = '4';
 		char c = '4';
 		
-		double r = 12.987;
+		double r = 12.945;
 		double s = 12.987;
 		double t = 12.987;
 		
-		boolean A = true;
+		boolean A = false;
 		boolean B = false;
 		boolean D = true;
 //		
@@ -38,31 +38,26 @@ public class main {
 		
 		x = y = z = 77;
 		if((x==y)&&(x==77)) z = 33;
-		if((x>y)||(z>22)) z= 22;
+		if((x>y)||(z>22))
+			{
+				return;
+			};
 //		if(x && y  &&z) z = 11;
 //		if((x=1) && (y=2) && (z=3)) r = 12.00;
 //		if((x==2)&&(y=3)&&(z=4)) r = 14.56;
 		
 		
 		
-		System.out.println("x = " + x);
-		System.out.println("y = " + y);
-		System.out.println("z = " + z);
-		System.out.println("a = " + a);
-		System.out.println("b = " + b);
-		System.out.println("c = " + c);
-		System.out.println("r = " + r);
-		System.out.println("s = " + s);
-		System.out.println("t = " + t);
-		System.out.println("j = " + j);
+
 		
-		x = 9;
-		y = 8;
+		x = 12;
+		y = 4;
 		if(x==7 && y<=++x) y = 35;
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
-		}
+	}
+
 	
 
 }
