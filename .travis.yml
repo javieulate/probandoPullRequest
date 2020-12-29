@@ -2,3 +2,9 @@ language: java
 
 script:
 	- mvn test -DargLine="-Dcontiperf.active=false"
+branches:
+	only:
+	-developmnt_unit
+
+	except:
+	-master
