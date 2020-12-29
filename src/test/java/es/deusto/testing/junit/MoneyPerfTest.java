@@ -56,7 +56,7 @@ public class MoneyPerfTest
 		fMB2= MoneyBag.create(f14CHF, f21USD);
 		logger.info("Leaving setUp");
 	}
-	
+	//prob
 	@Test 
 	@PerfTest(invocations = 1000, threads = 20)
 	@Required(max = 150, average = 130)
